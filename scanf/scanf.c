@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 int main(){
-    int a;
-    int b; 
-    int c;
+    float a;
+    float b; 
+    float c;
 
     scanf("%d\n", &a);
-    scanf("%d", &b);
+    scanf("%d\n", &b);
+    scanf("%d\n", &c);
 
-    c = a - 2 * b;
+    
 
-    printf("%d",c);
+    printf("%.2f",2 * a + b - c);
 
     return 0 ;
 }
