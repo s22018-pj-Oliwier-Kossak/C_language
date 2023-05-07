@@ -3,8 +3,8 @@
 int main(){
     char c;
 
-    while(scanf("%c",&c)>0){
-        
+    while(scanf(" %c",&c)>0){
+
         if(c !='q'){
             printf("%c",c);
         }
