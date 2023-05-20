@@ -1,1 +1,1 @@
-# Repository to show my progress of learning C language 
+#  my progress of learning C language 
